@@ -52,14 +52,14 @@ footer {
     background-color: #d9c2a3;
 }
 footer h3 {
-    color:#d9c2a3;
+    color: black;
 }
 footer a {
     color:#d9c2a3;
     text-decoration: none;
 }
 footer a:hover {
-    color:#242d35;
+    color:#d9c2a3;
 }
 footer h3 a:hover {
     text-decoration: underline;
