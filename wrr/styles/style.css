@@ -28,7 +28,7 @@ main section {
     margin-top: 10px;
 }
 body {
-    font-family: 'Quicksand', 'Helvetica', sans-serif;
+    font-family: 'Quicksand', 'Helvetica', Arial, sans-serif;
     background-color: #fcfbfb;
     font-size: 22px;
     margin: 0;
