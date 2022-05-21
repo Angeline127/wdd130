@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Quicksand:wght@500&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +9,7 @@ nav a  {
     text-align: center;
     color: beige;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -15,13 +19,22 @@ nav a  {
 }
 main section {
     text-align: center;
+    box-sizing: border-box;
 }
 #background{
     height: 725px;
     background-color: #b7a393;
+    padding-top: 10px;
+    margin-top: 10px;
 }
 body {
     background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #728da1;
@@ -31,9 +44,16 @@ nav a:hover {
     color: black;
 }
 .book, .join {
+    font-size: 18px;
     background-color: #242d35;
     color: white;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 .book:hover, .join:hover {
     background-color: #b7a393;
@@ -41,15 +61,22 @@ nav a:hover {
 }
 .msg h2 {
     color:#d9c2a3;
+    font-family: Quicksand ;
 }
 .msg p {
+    font-size: .8em;
     color:#d9c2a3;
+    padding-bottom: 15px;
 }
 .msg {
     background-color: #242d35;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #242d35;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3 {
     color:#d9c2a3;
@@ -58,6 +85,9 @@ footer a {
     color:#d9c2a3;
     text-decoration: none;
 }
+.footer .social img {
+    padding-top: 15px;
+}
 footer a:hover {
     color: #728da1;
 }
@@ -65,17 +95,28 @@ footer h3 a:hover {
     text-decoration: underline;
 }
 .home-title {
-    color: black;
+    font-size: 2em;
+    color: #242d35;
+    font-family: "Playfair Display";
+    margin-top: 10px;
 }
 h4 {
     color: black;
+    font-family: Quicksand ;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 #hero-img {
     width:100%;
+}
+.card-img {
+    border: 10px solid #b7a393;
 }
