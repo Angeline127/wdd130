@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Quicksand:wght@500&display=swap');
 
+@font-face {
+    font-family : 'Playfair Display';
+    font-style : italic;
+    font-weight : 500;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/playfairdisplay/v29/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_pqTbtY.ttf) format('truetype');
+    }
+    @font-face {
+    font-family : 'Quicksand';
+    font-style : normal;
+    font-weight : 500;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/quicksand/v29/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkM0o18E.ttf) format('truetype');
+    }
 
 header {
     display: grid;
