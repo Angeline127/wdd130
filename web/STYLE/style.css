@@ -211,13 +211,11 @@ input[type=submit]:hover {
     justify-content: space-between;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 35px;
-    gap: 130px;
+    padding: 15px;
+    gap: 10px;
 }
 #new {
     text-align: center;
 }
-#banners-img {
-    width: 80%;
-}
+
 /*about page*/
