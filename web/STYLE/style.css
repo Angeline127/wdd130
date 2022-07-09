@@ -210,17 +210,14 @@ input[type=submit]:hover {
 .ideas-grid {
     justify-content: space-between;
     display: grid;
-    grid-template-columns: repeat(10, 2fr)
+    grid-template-columns: repeat(2, 1fr);
+    padding: 35px;
+    gap: 130px;
 }
-.aud-box {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    padding-left: 15px;
+#new {
+    text-align: center;
 }
-.cod-box {
-    grid-column: 2/3;
-    grid-row: 2/3;
+#banners-img {
+    width: 80%;
 }
-
-
 /*about page*/
