@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Playfair+Display:ital,wght@1,500&family=Quicksand&family=Roboto:ital,wght@0,400;1,300&display=swap');
 
+/*home page*/
+
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -154,8 +156,10 @@ footer h3 a:hover {
     text-decoration: underline;
 }
 
-/** contact **/
-input[type=text], select, textarea {
+/** contact page **/
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -164,29 +168,29 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     background-color: #062E84;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: #798E98;
-  }
-  
-  .container {
+}
+
+.container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     align-items: center;
-  }
+}
 
-  #feedback {
+#feedback {
     background-color: antiquewhite;
     position: absolute;
     top: 0;
@@ -196,3 +200,27 @@ input[type=text], select, textarea {
     /* make this element invisible until we are ready for it */
     display: none;
 }
+
+/*ideas page*/
+.quote {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.ideas-grid {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(10, 2fr)
+}
+.aud-box {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-left: 15px;
+}
+.cod-box {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+/*about page*/
