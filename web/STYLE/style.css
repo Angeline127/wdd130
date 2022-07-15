@@ -129,14 +129,19 @@ img {
 footer {
     background-color: #b7a393;
     padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
+    display: grid;
     justify-content: space-around;
     align-items: center;
+    grid-template-columns: 3fr 1fr;
 }
-
+.social {
+    display: flex;
+    justify-content: space-between;
+}
 footer h3 {
     color: whitesmoke;
+    display: inline;
+    margin-right: 30px;
 }
 
 footer a {
@@ -211,8 +216,8 @@ input[type=submit]:hover {
     justify-content: space-between;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 15px;
-    gap: 10px;
+    padding: 50px;
+    gap: 50px;
 }
 #new {
     text-align: center;
