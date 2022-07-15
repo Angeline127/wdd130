@@ -219,3 +219,45 @@ input[type=submit]:hover {
 }
 
 /*about page*/
+.program-grid {
+    background: #798E98;
+    width: 100%;
+    height: 50%;
+    gap:50px;
+    padding-left: 150px;
+    padding-top: 40px;
+    
+    margin-top: 5px;
+   
+}
+.program-grid h2 {
+    text-align: center;
+    margin-right: 30%;
+}
+.one {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.founder-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px;
+    gap:10px;
+}
+.mis {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 80px;
+    padding-left: 10px;
+}
+.vis {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 80px;
+    padding-left: 10px;
+}
+
