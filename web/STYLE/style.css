@@ -226,7 +226,7 @@ input[type=submit]:hover {
 /*about page*/
 .program-grid {
     background: #798E98;
-    width: 100%;
+    
     height: 50%;
     gap:50px;
     padding-left: 150px;
