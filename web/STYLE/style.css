@@ -254,6 +254,9 @@ input[type=submit]:hover {
     padding: 15px;
     gap:10px;
 }
+.fond {
+    text-align: center;
+}
 .mis {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
