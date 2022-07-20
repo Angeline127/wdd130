@@ -226,12 +226,10 @@ input[type=submit]:hover {
 /*about page*/
 .program-grid {
     background: #798E98;
-    
     height: 50%;
     gap:50px;
     padding-left: 150px;
     padding-top: 40px;
-    
     margin-top: 5px;
    
 }
@@ -265,8 +263,15 @@ input[type=submit]:hover {
 }
 .vis {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);  
     padding-top: 80px;
     padding-left: 10px;
+}
+box-icon {
+    height: 100px;
+    width: 100px;
+}
+.section p {
+    margin-top: 0px;
 }
 
