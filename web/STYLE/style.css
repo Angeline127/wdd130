@@ -264,12 +264,14 @@ input[type=submit]:hover {
     grid-template-columns: repeat(2, 1fr);
     padding-top: 80px;
     padding-left: 10px;
+    margin-left: 50px;
 }
 .vis {
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
     padding-top: 80px;
     padding-left: 10px;
+    margin-left: 50px;
 }
 box-icon {
     height: 100px;
